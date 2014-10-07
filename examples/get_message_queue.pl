@@ -9,7 +9,7 @@ use WebService::Zulip;
 my $queue = load_queue_info(%{load_zulip_info()});
 
 my $result = $zulip->get_new_events(
-	queue_id      => $queue->{queue_id}, 
+	queue_id      => $queue->{queue_id},
 	last_event_id => $queue->{last_event_id},
 	dont_block => 'false'
 );
