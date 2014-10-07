@@ -1,0 +1,12 @@
+- investigate long polling option
+ - easy, it just times out
+- event loop POE thing?
+ - python module just while loops
+- make it a proper module
+- explore private api
+ - needs csrf token
+ - does not exist as undocumented api :(
+- capture json decode failures
+- error handling levels
+- the python bindings have more methods than the docs state.
+ - "We have a well-documented API "...
